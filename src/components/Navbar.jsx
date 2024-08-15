@@ -65,7 +65,7 @@ const handleClose = e => {
   console.log("menu closed")
 }
   return (
-    <AppBar position="stiky">
+    <AppBar position="sticky" margin={0}>
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
           Lama Dev
